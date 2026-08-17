@@ -81,6 +81,8 @@ h1, h2, p { margin: 0; }
 .choice-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; margin-top: 24px; }
 .choice-grid.five { grid-template-columns: repeat(6, 1fr); gap: 8px; }
 .choice-grid.five .btn { padding-inline: 0; min-width: 0; }
+.target-grid { grid-template-columns: repeat(3, 1fr); }
+.target-custom { display: grid; gap: 8px; margin-top: 24px; }
 
 .field-list { display: grid; gap: 12px; margin-top: 24px; }
 .field {
@@ -107,6 +109,7 @@ h1, h2, p { margin: 0; }
 .timer span { z-index: 1; font: 700 32px/1 "Bricolage Grotesque", sans-serif; }
 
 .word-recap { margin: 24px 0 0; padding-left: 24px; display: grid; gap: 4px; }
+.score-target { margin-top: 10px; }
 .score-table { display: grid; gap: 4px; margin-top: 16px; }
 .score-row { display: flex; justify-content: space-between; font-size: 24px; font-weight: 700; }
 .next-player { align-self: end; margin-bottom: 4px; display: grid; gap: 8px; }
