@@ -6,8 +6,9 @@ Een installeerbare, offline werkende mobiele web-app op basis van het aangelever
 
 - **View-laag:** semantische HTML die per spelstatus wordt gerenderd.
 - **State-laag:** één centrale state-machine in `app.js`; schermwissels volgen de spelroute.
-- **Domeinlogica:** themawoorden, timer, beurtvolgorde, scores en winnaar zijn los van de CSS opgebouwd.
-- **Spelinstellingen:** thema, spelersaantal en doelscore worden bij ieder nieuw spel gekozen. Spelers krijgen standaard de namen Speler 1, Speler 2, enzovoort.
+- **Domeinlogica:** themawoorden, timer, beurtvolgorde, individuele scores, teamscores en winnaar zijn los van de CSS opgebouwd.
+- **Spelinstellingen:** thema, spelersaantal en doelscore worden bij ieder nieuw spel gekozen. Lege naamvelden vallen bij de start terug op Speler 1, Speler 2, enzovoort.
+- **Spelvormen:** vanaf vier spelers kan iedereen voor zichzelf spelen of kunnen twee gebalanceerde teams worden gemaakt (2–2, 3–2 of 3–3).
 - **PWA-laag:** manifest plus service worker maken installatie en offline spelen mogelijk.
 
 ## Lokaal openen
@@ -27,4 +28,4 @@ Open daarna `http://localhost:4173`. Voor installatie op een echte iPhone moet d
 3. Kies **Zet op beginscherm**.
 4. Open 30 Seconds voortaan via het app-icoon.
 
-De eerste speler die de gekozen doelscore haalt, wint. De woordenbank bevat 80 begrippen per thema en deelt eerst alle begrippen uit voordat een nieuwe, geschudde reeks begint.
+De eerste speler of het eerste team dat de gekozen doelscore haalt, wint. De woordenbank bevat 200 begrippen per thema en deelt eerst alle begrippen uit voordat een nieuwe, geschudde reeks begint.
