@@ -28,4 +28,4 @@ Open daarna `http://localhost:4173`. Voor installatie op een echte iPhone moet d
 3. Kies **Zet op beginscherm**.
 4. Open 30 Seconds voortaan via het app-icoon.
 
-De eerste speler of het eerste team dat de gekozen doelscore haalt, wint. De woordenbank bevat 200 begrippen per thema en deelt eerst alle begrippen uit voordat een nieuwe, geschudde reeks begint.
+De eerste speler of het eerste team dat de gekozen doelscore haalt, wint. De woordenbank bevat 120 zorgvuldig gekozen begrippen per thema en deelt eerst alle begrippen uit voordat een nieuwe, geschudde reeks begint.
